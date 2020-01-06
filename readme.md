@@ -12,16 +12,14 @@ Make example for this keyboard (after setting up your build environment):
     make hqkkb:default
 
 ArchLinux flashing hints:
-
-    - use [QMK's Vagrant](https://beta.docs.qmk.fm/detailed-guides/getting_started_vagrant)
-    - add yourself to `vboxusers` group
-    - install `aur/virtualbox-ext-oracle`
-    - verify the board is seen on guest with:
-        - `vagrant ssh -c 'sudo -i'`
-        - `apt install usbutils`
-        - `lsusb`
-    - flash with `make hhkb:default:dfu` after entering QMK programming mode
-    (<key>fn+z</key>)
+  - use [QMK's Vagrant](https://beta.docs.qmk.fm/detailed-guides/getting_started_vagrant)
+  - add yourself to `vboxusers` group
+  - install `aur/virtualbox-ext-oracle`
+  - verify the board is seen on guest with:
+      - `vagrant ssh -c 'sudo -i'`
+      - `apt install usbutils`
+      - `lsusb`
+  - flash with `make hhkb:default:dfu` after entering QMK programming mode (<key>fn+z</key>)
 
 Successfully flashed device should be seen as:
 
