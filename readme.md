@@ -19,7 +19,7 @@ ArchLinux flashing hints:
       - `vagrant ssh -c 'sudo -i'`
       - `apt install usbutils`
       - `lsusb`
-  - flash with `make hhkb:default:dfu` after entering QMK programming mode (<key>fn+z</key>)
+  - flash with `make hhkb:default:dfu` after entering QMK programming mode (<kbd>fn+z</kbd>)
 
 Successfully flashed device should be seen as:
 
