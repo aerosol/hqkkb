@@ -2,7 +2,7 @@
 
 ![hqkkb](https://user-images.githubusercontent.com/173738/71843051-51f52e00-30c3-11ea-9bc8-2feae2ac355f.jpeg)
 
-This is a newb attempt at tuning NPKC's HHKB firmware to better reflect the original PFU HHKB2 layout.
+This is a new attempt at tuning NPKC's HHKB firmware to better reflect the original PFU HHKB2 layout.
 
 I only updated selected mappings I frequently use on the original PFU board.
 This repo does not aim to be a proper QMK ecosystem citizen, yet.
